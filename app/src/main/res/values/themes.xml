@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Minimal XML theme for the Activity window before Compose renders.
+  Uses AppCompat base which is already in the project dependencies.
+  All Material 3 / Compose theming is handled by BatteryUnlockTheme in Kotlin.
+-->
+<resources>
+    <style name="Theme.ERickshawBatteryUnlock" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Transparent bars — Compose handles insets via enableEdgeToEdge() -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- Match the deep navy background color to prevent white flash on startup -->
+        <item name="android:windowBackground">@color/launch_background</item>
+    </style>
+</resources>

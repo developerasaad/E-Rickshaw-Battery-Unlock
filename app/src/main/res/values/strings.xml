@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">E-Rickshaw Battery Unlock</string>
+
+    <!-- Scan Screen -->
+    <string name="scan_title">E-Rickshaw Battery Unlock</string>
+    <string name="scan_button">Scan for Batteries</string>
+    <string name="scan_stop">Stop Scan</string>
+    <string name="scan_searching">Searching for batteries…</string>
+    <string name="scan_hint">Make sure the battery is powered on and nearby</string>
+    <string name="scan_devices_found">%1$d device found</string>
+    <string name="scan_devices_found_plural">%1$d devices found</string>
+
+    <!-- Connection -->
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting…</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnecting">Disconnecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="discovering_services">Discovering services…</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Battery Dashboard</string>
+    <string name="state_of_charge">State of Charge</string>
+    <string name="voltage">Voltage</string>
+    <string name="current">Current</string>
+    <string name="temperature">Temperature</string>
+    <string name="capacity">Capacity</string>
+    <string name="cycle_count">Cycle Count</string>
+    <string name="cell_voltages">Cell Voltages</string>
+    <string name="value_na">N/A</string>
+
+    <!-- Recovery -->
+    <string name="recovery_title">Battery Recovery</string>
+    <string name="recovery_unlock">Unlock Battery</string>
+    <string name="recovery_unlocking">Sending unlock command…</string>
+    <string name="recovery_success">Battery Unlocked!</string>
+    <string name="recovery_failed">Unlock Failed</string>
+    <string name="recovery_unsupported">Not Supported</string>
+    <string name="recovery_confirm_title">Confirm Battery Unlock</string>
+    <string name="recovery_confirm_message">This will send a command to enable the battery\'s discharge switch.\n\nOnly proceed if you are the authorized owner or technician for this battery.</string>
+    <string name="recovery_confirm">Confirm Unlock</string>
+    <string name="recovery_description">Send a command to re-enable the battery\'s discharge switch. Used to recover batteries locked by a protection event.</string>
+
+    <!-- Password -->
+    <string name="password_title">Manage Password</string>
+    <string name="password_new">New Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="password_set">Set Password</string>
+    <string name="password_setting">Setting Password…</string>
+    <string name="password_remove">Remove Password from BMS</string>
+    <string name="password_remove_title">Remove Password</string>
+    <string name="password_danger_zone">Danger Zone</string>
+
+    <!-- Saved Batteries -->
+    <string name="saved_title">Saved Batteries</string>
+    <string name="saved_empty">No saved batteries yet</string>
+    <string name="saved_empty_hint">Batteries you connect to will appear here</string>
+    <string name="saved_delete">Delete</string>
+    <string name="saved_last_seen">Last seen: %1$s</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth_title">Bluetooth Permission Required</string>
+    <string name="permission_bluetooth_rationale">This app needs Bluetooth permission to find and connect to your battery.</string>
+    <string name="permission_grant">Grant Bluetooth Permission</string>
+
+    <!-- Bluetooth disabled -->
+    <string name="bluetooth_disabled_title">Bluetooth is Turned Off</string>
+    <string name="bluetooth_disabled_message">Please turn on Bluetooth in your phone\'s settings to scan for batteries.</string>
+
+    <!-- Errors -->
+    <string name="error_no_protocol">No compatible BMS protocol detected on this device.</string>
+    <string name="error_not_connected">Not connected to a battery.</string>
+    <string name="error_gatt_busy">BLE stack is busy. Please wait a moment and try again.</string>
+    <string name="error_timeout">Operation timed out. The battery may be out of range.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_back">Back</string>
+    <string name="cd_disconnect">Disconnect from battery</string>
+    <string name="cd_saved_batteries">Saved batteries</string>
+    <string name="cd_signal_strength">Signal strength</string>
+    <string name="cd_show_password">Show password</string>
+    <string name="cd_hide_password">Hide password</string>
+    <string name="cd_delete_battery">Delete saved battery</string>
+</resources>
